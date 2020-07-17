@@ -36,6 +36,10 @@ h2 {
 	letter-spacing: -.7;
 }
 
+h3 {
+	font-size: 24;
+}
+
 p{ 
 	font-size: 20;
 	line-height: 1.7;
@@ -48,6 +52,43 @@ a {
 a:hover {
 	color: purple;
 }
+.bigwrap {
+	display: inline-flex;
+	width: 100%;
+	
+}
+
+.work-text-wrap {
+	display: inline-block;
+	width: 700px;
+	margin: 70px;
+}
+
+.contact-wrap {
+	display: inline-block;
+	border-style: solid;
+	border-width: 5px;
+	border-color: pink;
+	padding: 15px;
+	height: 150px;
+	right: -200px;
+	width: 200px;
+	top: 100;
+	position: relative;
+	z-index: 3;
+}
+
+.c-info {
+	line-height: 2.3;
+}
+
+.text-wrap {
+	padding-left: 50px;
+	z-index: 2;
+}
+.hello {
+	font-size: 24;
+}
 
 .link {
 	text-decoration: none;
@@ -57,8 +98,8 @@ a:hover {
 	/*position: relative;*/
 	top: 40;
 	left: 0;
-	width: 400;
-	height: 500;
+	width: 350;
+	height: 450;
 	margin-left: 40px;
 	/*transform: rotate(90deg);*/
 
@@ -106,20 +147,20 @@ a:hover {
 
 .textbox {
 	width: 600;
-	padding-left: 30;
+	/*padding-left: 30;*/
 	z-index: 3;
 	
 }
 
 .colorblock {
-	display: inline-block;
-	position: relative;
-	top: -1000;
-	float: right;
+	/*display: inline-block;*/
+	position: fixed;
+	right: 0;
+	top: 0;
 	width: 400;
-	height: 1070;
+	height: 100%;
 	background-color: lavender;
-	z-index: 2;
+	z-index: 1;
 	opacity: .4;
 }
 
@@ -139,3 +180,13 @@ a:hover {
 	overflow: hidden;
 }
 
+.fa fa-instagram {
+	width: 3px;
+	height: 3px;
+	margin-right: 10px;
+}
+.fa fa-linkedin-square {
+	width: 3px;
+	height: 3px;
+	margin-right: 10px;
+}
