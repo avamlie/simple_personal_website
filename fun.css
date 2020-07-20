@@ -34,6 +34,7 @@ h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 	letter-spacing: -.7;
+	font-size: 20;
 }
 
 h3 {
@@ -50,7 +51,7 @@ a {
 	color: black;
 }
 a:hover {
-	color: purple;
+	color: lightcoral;
 }
 .bigwrap {
 	display: inline-flex;
@@ -70,11 +71,12 @@ a:hover {
 	border-width: 5px;
 	border-color: pink;
 	padding: 15px;
-	height: 150px;
-	right: -200px;
+	height: 140px;
+	/*left: 270px;*/
 	width: 200px;
-	top: 100;
-	position: relative;
+	right: 30px;
+	bottom: 10px;
+	position:fixed;
 	z-index: 3;
 }
 
@@ -146,7 +148,7 @@ a:hover {
 }
 
 .textbox {
-	width: 600;
+	width: 700;
 	/*padding-left: 30;*/
 	z-index: 3;
 	
@@ -173,6 +175,10 @@ a:hover {
 	height: 700px;
 	display: inline-block;
 	
+}
+
+.highlight {
+    background-color: lavenderblush;
 }
 
 #footer {
