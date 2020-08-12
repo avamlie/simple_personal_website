@@ -86,6 +86,7 @@ a:hover {
 
 .text-wrap {
 	padding-left: 50px;
+	width: 40%;
 	z-index: 2;
 }
 .hello {
