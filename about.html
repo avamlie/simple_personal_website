@@ -3,6 +3,7 @@
 	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="fun.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <style>
     .top-text {
       position: absolute;
@@ -19,9 +20,33 @@
       height: 500px;
     }
 
+
     .top-row {
       height: 300px;
     }
+    .contact {
+      position: absolute;
+      background-color: #F5F5F5;
+      padding: 10px;
+      border: 1px solid pink;
+      top: 150;
+      left: 66%;
+      transform: translate(-50%.-50%);
+      visibility: hidden;
+    }
+    .img-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .img-container:hover .top-img {
+      opacity: .3;
+    }
+
+    .img-container:hover .contact {
+      visibility: visible;
+    }
+
   </style>
 </head>
 <body>
@@ -29,7 +54,7 @@
 
       </div>
       <div class="menucontainer" >
-        <a href="index.html">Home</a>
+        <a href="fun2.html">Home</a>
             <a href="portfolio.html">Projects</a>
             <a href="resume.html">Resume</a>
             <a class="highlight" href="contact.html">About</a>
@@ -37,9 +62,21 @@
 <h1> About Me </h1>
 <div class="top-row">
 <div class="top-text">
-  <p style="margin-top: 25px; letter-spacing: .7px; font-size: 18;"> <strong>Hi!</strong> My name is Annika and I am a rising senior at Northwestern University. Throughout my time at NU, I have found a passion for computer science- especially data science, AI, and UX/UI. Having worked in both the e-Commerce and real estate industries, I have experience with building upon software and data analysis devices that are user-friendly. Making technology and data accessible to the common person is something that I am very passionate about, which is also why I have chosen to minor in psychology.</p><p style="letter-spacing: .7px; font-size: 18;">I also enjoy teaching and mentoring others, and my roles as a Peer Adviser, Peer Coach, and Computer Science tutor have allowed me to expand upon my leadership skills. </p>
+  <p style="margin-top: 25px; letter-spacing: .7px; font-size: 18;"> <strong>Hi!</strong> My name is Annika and I am a rising senior at Northwestern University. Throughout my time at NU, I have been exposed to many areas of computer science, but I am especially interested in data science and UX/UI. My background in psychology and my experience in the e-Commerce and real estate industries have shown me the importance of user-friendly software, and I am passionate about making technology and data accessible to everyone.</p><p style="letter-spacing: .7px; font-size: 18;">I also enjoy teaching and mentoring others, and my roles as a Peer Adviser, Peer Coach, and Computer Science tutor have allowed me to expand upon my leadership skills. </p>
 </div>
-<img class="top-img" src="IMG_3396.jpeg" style="border: 5px solid pink">
+  
+<div class="img-container">
+  <img class="top-img" src="IMG_3396.jpeg">
+  <div class="contact">Contact Info: 
+          <div class="c-info"><a href="mailto:aamlie.01@gmail.com" class="fa fa-envelope-o" target="_blank"></span><a href="mailto:aamlie.01@gmail.com" target="_blank"> aamlie.01@gmail.com</a  ></div>
+          <div class="c-info"><span class="fa fa-phone"></span> 904-704-5156</div>
+          <div class="c-info"><a href="www.linkedin.com/in/annika-amlie-8a9874170" class="fa fa-linkedin-square" target="_blank"> <a href="www.linkedin.com/in/annika-amlie-8a9874170" target="_blank"> Annika Amlie</a></div>
+         <div class="c-info"><a href="https://www.instagram.com/avamlie/" class="fa fa-instagram" target="_blank"></a><a href="https://www.instagram.com/avamlie/" target="_blank"> @avamlie</a></div>
+  </div>
+</div>
+
+
+</div>
 </div>
 </body>
 </html>
