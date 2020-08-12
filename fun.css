@@ -63,7 +63,7 @@ a:hover {
 	display: inline-block;
 	width: 700px;
 	margin: 70px;
-	z-index: 2;
+	z-index: 3;
 }
 
 .contact-wrap {
