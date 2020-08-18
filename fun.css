@@ -83,6 +83,7 @@ a:hover {
 
 .c-info {
 	line-height: 2.2;
+	display: inline-block;
 }
 
 .text-wrap {
